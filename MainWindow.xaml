@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Rectangle Width="200" Height="200" Fill="Chartreuse" x:Name="rectTeglalap"/>
+        <Button Click="ColorAnimation" Canvas.Top="200" Height="50" Width="50" x:Name="btnColor" Content="Color"/>
+        <Button Click="DoubleAnimation" Canvas.Top="200" Canvas.Left="75" Width="50" Height="50" x:Name="btnDouble" Content="Double"/>
+        <Button Click="MarginAnimation" Canvas.Top="200" Canvas.Left="140" Width="50" Height="50" x:Name="btnMargin" Content="Margó"/>
+        <Button Click="FadeAnimation" Canvas.Top="200" Canvas.Left="210" Width="50" Height="50"  Content="Fade"/>
+        <Label Content="Gyilkol az ideg, mi?" Margin="300" Name="lbSzoveg"/>
+    </Canvas>
+</Window>
